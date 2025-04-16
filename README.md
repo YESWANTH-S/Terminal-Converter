@@ -5,7 +5,7 @@
 
 <div style="text-align: center;">
   <p align="center">
-    <img src="assets/output.gif" alt="Terminal Converter Logo" width="500"/>
+    <img src="assets/terminal.gif" alt="Terminal Converter Logo" width="500"/>
   </p>
   <p align="center">
     <strong>A sleek terminal-style multimedia file converter</strong><br>
@@ -111,8 +111,9 @@ pip install -r requirements.txt
 
 ## 🔗 Demo
 
-- **Demo Video**: [assets/demo](assets/demo)
+- **Demo Video**: [Terminal Converter](assets/demo.mp4)
 
+https://github.com/user-attachments/assets/5394f407-a957-448c-a6fc-524e9465550e
 ---
 
 ## 🪪 License
