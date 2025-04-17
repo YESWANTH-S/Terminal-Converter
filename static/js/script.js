@@ -205,12 +205,13 @@ function handleFile(file) {
         option.onclick = () => {
           [...toggleContainer.children].forEach(c => c.classList.remove("active-toggle"));
           option.classList.add("active-toggle");
-
+        
           const existing = document.querySelector(".file-options.formats");
           if (existing) existing.remove();
-
+        
           callback();
-        };
+          setTimeout(() => autoScrollToBottom(), 100);
+        };        
 
         return option;
       };
