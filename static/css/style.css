@@ -13,7 +13,7 @@ body {
   
   :root {
     /* Mocha Palette (Dark Theme) */
-    --mocha-base:rgba(0, 0, 0, 0);
+    --mocha-base:#11111b;
     --mocha-text: #cdd6f4;
     --mocha-lavender: #b4befe;
     --mocha-green: #a6e3a1;
@@ -99,7 +99,7 @@ body {
     width: 85%;
     height: 70vh;
     max-width: 1200px;
-    background-color: #11111b;
+    background-color: var(--base);
     border-radius: 8px;
     padding: 20px 30px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -326,7 +326,7 @@ body {
   .download-btn-terminal {
     display: inline-block;
     background-color: var(--lavender);
-    color: #11111b;
+    color: var(--base);
     padding: 6px 14px;
     font-family: var(--font-terminal);
     font-size: 0.8rem;
