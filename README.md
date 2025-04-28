@@ -1,22 +1,23 @@
-<div style="text-align: center;">
-  <h1 align="center"> <img src="assets/Logo.png" alt="Terminal Converter Preview" width="100"/><br><b>Terminal Converter</b></h1>
-</div>
+<p align="center">
+  <img src="assets/Logo.png" alt="Terminal Converter Logo" width="100"/>
+</p>
 
-<div style="text-align: center;">
-  <p align="center">
-    <img src="assets/terminal.gif" alt="Terminal Converter Preview" width="900"/>
-  </p>
-  <p align="center">
-    <strong>A sleek terminal-style multimedia file converter</strong><br>
-    Convert videos, audio, and images into various formats with real-time terminal feedback — all in your browser.
-  </p>
+<h1 align="center">Terminal Converter</h1>
 
-  <p align="center">
-    <a href="https://terminal-converter.onrender.com/" target="_blank">
-      <img src="https://img.shields.io/badge/Visit%20Website-Terminal%20Converter-b4befe?style=for-the-badge">
-    </a>
-  </p>
-</div>
+<p align="center">
+  <img src="assets/terminal.gif" alt="Terminal Converter Preview" width="900"/>
+</p>
+
+<p align="center"><strong>A sleek terminal-style multimedia file converter</strong></p>
+<p align="center">
+  Convert videos, audio, and images into various formats with real-time terminal feedback — all in your browser.
+</p>
+
+<p align="center">
+  <a href="https://terminal-converter.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Website-Terminal%20Converter-b4befe?style=for-the-badge" alt="Visit Terminal Converter Website"/>
+  </a>
+</p>
 
 ---
 
