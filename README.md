@@ -23,9 +23,15 @@
 
 ## ✨ Features
 
-- Convert video, audio, and image files to different formats  
-- Custom codec flags like `h264` and `h265` are supported  
-- Terminal-style interface with real-time feedback  
+- Convert video, audio, and image files to various formats  
+- Terminal-style interface with real-time conversion feedback  
+- Smart format detection and dynamic UI options based on file type  
+- Custom codec support with flags like `h264` and `h265`  
+- Convert videos to audio or image formats with proper handling  
+- SVG to PNG, PS, or PDF conversion with CairoSVG integration  
+- Web-based and lightweight.
+- Handles multiple conversions without page reloads 
+- Beautifully themed with Catppuccin for a modern, cozy vibe
 
 
 ## 🚀 Getting Started
@@ -82,6 +88,48 @@ Visit `http://127.0.0.1:5000` in your browser.
 ├── templates/
 │   └── index.html
 ```
+
+## 🔄 Supported Formats & Conversion Types
+
+### 🎥 Video
+
+**Supported Formats:**  
+`mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`
+
+**Supported Codecs:**  
+`h264`, `h265`
+
+**Conversion Types:**
+
+- Convert to: `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`
+- Convert to audio: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
+
+### 🎧 Audio
+
+**Supported Formats:**  
+`mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
+
+**Conversion Types:**
+
+- Convert to: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
+
+### 🖼️ Image
+
+**Supported Formats:**  
+`jpeg`, `jpg`, `png`, `webp`, `svg`, `bmp`, `tiff`, `gif`
+
+**Conversion Types:**
+
+- Convert to: `jpeg`, `jpg`, `png`, `webp`, `bmp`, `tiff`, `gif`
+- `svg` can be converted to: `png`, `ps`, `pdf`
+
+### 📽️ GIF
+
+**Conversion Types:**
+
+- Convert to video: `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`
+- Convert to image: `jpeg`, `jpg`, `png`, `webp`, `bmp`, `tiff` *(output is zipped)*
+
 
 ## 📦 Dependencies
 
