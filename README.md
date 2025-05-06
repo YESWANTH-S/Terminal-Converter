@@ -88,47 +88,14 @@ Visit `http://127.0.0.1:5000` in your browser.
 ├── templates/
 │   └── index.html
 ```
+### 🔄 Supported Formats & Conversion Types
 
-## 🔄 Supported Formats & Conversion Types
+| Category| Supported Formats | Conversion Types|
+|--|----|---|
+| 🎥 **Video**        | `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`  | - To video: `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`<br>- To audio: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`<br>- GIFs can be converted to video formats<br>- Supports `h264` and `h265` codecs too. |
+| 🎧 **Audio**        | `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma` | - To audio: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`                                                                                                         |
+| 🖼️ **Image**        | `jpeg`, `jpg`, `png`, `webp`, `svg`, `bmp`, `tiff`, `gif`| - To image: `jpeg`, `jpg`, `png`, `webp`, `bmp`, `tiff`, `gif`<br>- `svg` to: `png`, `ps`, `pdf`<br>- Animated `gif` can be extracted into image sequences *(zipped output)* |
 
-### 🎥 Video
-
-**Supported Formats:**  
-`mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`
-
-**Supported Codecs:**  
-`h264`, `h265`
-
-**Conversion Types:**
-
-- Convert to: `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`, `gif`
-- Convert to audio: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
-
-### 🎧 Audio
-
-**Supported Formats:**  
-`mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
-
-**Conversion Types:**
-
-- Convert to: `mp3`, `wav`, `flac`, `aac`, `ogg`, `opus`, `wma`
-
-### 🖼️ Image
-
-**Supported Formats:**  
-`jpeg`, `jpg`, `png`, `webp`, `svg`, `bmp`, `tiff`, `gif`
-
-**Conversion Types:**
-
-- Convert to: `jpeg`, `jpg`, `png`, `webp`, `bmp`, `tiff`, `gif`
-- `svg` can be converted to: `png`, `ps`, `pdf`
-
-### 📽️ GIF
-
-**Conversion Types:**
-
-- Convert to video: `mp4`, `mkv`, `mov`, `avi`, `flv`, `wmv`, `webm`
-- Convert to image: `jpeg`, `jpg`, `png`, `webp`, `bmp`, `tiff` *(output is zipped)*
 
 
 ## 📦 Dependencies
